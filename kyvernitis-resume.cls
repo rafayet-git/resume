@@ -42,8 +42,8 @@
 \pagestyle{empty}
 
 % Define navy-blue color for later use. Color code is taken from Canva
-\definecolor{navyblue}{RGB}{0, 83, 137}
-\definecolor{links}{RGB}{3, 43, 198}
+\definecolor{navyblue}{RGB}{30, 62, 102}
+\definecolor{links}{RGB}{1, 41, 120}
 
 % Define new resizable bullet with default 0.7 size for later use
 % Taken from https://tex.stackexchange.com/questions/534192/medium-sized-circle-as-a-bullet
@@ -85,6 +85,10 @@
 \newcommand{\websiteCustom}[2]{
     \href{https://#1}{\textcolor{black}
     {\faGlobeAmericas}\hspace{0.5em}#2}
+}
+\newcommand{\gitRepo}[2]{
+    \href{https://#1}{\textcolor{black}
+    {\faGithub}\hspace{0.5em}#2}
 }
 \newcommand{\phone}[1]{
     \textcolor{black}{\faPhone*}\hspace{0.5em}#1
@@ -132,9 +136,9 @@
 \renewenvironment{section}[1]{
     \phantomsection
     \addcontentsline{toc}{section}{#1}
-    \medskip
+    \smallskip
     {\color{navyblue}{\textbf{\textit{#1}}}}
-    \medskip
+    \smallskip
     {\color{navyblue}\hrule}
     \begin{list}{}{
         \setlength{\leftmargin}{1.5em}
@@ -159,7 +163,22 @@
     \itemsep -0.5em \vspace{-0.5em}
 }{
     \end{list}
-    \vspace{0.5em}
+}
+
+% Renew subsection command for resume subsections
+% All arguments are compulsory
+% #1: Name, #2: Description,
+\newenvironment{subsectionproject}[3]{
+    \phantomsection
+    \addcontentsline{toc}{subsection}{#1}
+    \textbf{#1} \textit{- #2} \hfill \textit{#3} 
+    \smallskip
+    \begin{list}{$\vbullet$}{
+        \leftmargin=2em
+    }
+    \itemsep -0.5em \vspace{-0.5em}
+}{
+    \end{list}
 }
 
 
@@ -173,7 +192,7 @@
     \textit{#2} \hfill \textit{#4}
     \smallskip
     \begin{list}{}{
-        \leftmargin=0em \itemindent=0em \labelwidth=0em \labelsep=0em
+        \leftmargin=1em \itemindent=0em \labelwidth=0em \labelsep=0em
     }
     \itemsep -0.7em \vspace{-0.7em}
 }{

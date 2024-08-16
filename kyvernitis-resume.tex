@@ -1,6 +1,6 @@
 \documentclass[]{kyvernitis-resume}
 \fullname{Rafayet Hossain}
-% \jobtitle{Sofware Engineer}
+%\jobtitle{CS}
 
 \begin{document}
 \resumeheader
@@ -12,14 +12,10 @@
 {\nationality{United States}}
 
 \begin{section}{Education}
-    \begin{subsectionnobullet}{City University of New York - Hunter College}{B.A. Computer Science}{New York, NY}{August 2023 -- Present}
-        \italicitem{Courses: Software Analysis and Design 1, Calculus 2, Discrete Mathematics}
-        \italicitem{GPA: 3.568}
-    \end{subsectionnobullet}
-
-    
-    \begin{subsectionnobullet}{Stuyvesant High School}{Advanced Regents Diploma}{New York, NY}{Sept 2019 -- June 2023}
-        \italicitem{Courses: AP Computer Science, AP Calculus AB, Intro to Computer Science, Systems Level Programming, Cybersecurity, Computer Graphics}
+    \begin{subsectionnobullet}{City University of New York - Hunter College}{B.A. Computer Science}{New York, NY}{Expected: Jun. 2027}
+        \italicitem{Relevant Courses: Software Analysis and Design 2, Calculus 2, Discrete Mathematics}
+        \italicitem{GPA: 3.473}
+        \italicitem{Honors: Dean's list, Peter F. Vallone Academic Scholarship}
     \end{subsectionnobullet}
 \end{section}
 
@@ -27,35 +23,34 @@
 
 
 \begin{section}{Projects}
-\begin{subsectionnobullet}{AP Computer Science}{Course - Group}{\websiteCustom{github.com/UTkbxRME7c9C/Tetris-HD}{Project Files}}{June 2022}
-    \item{Used Java to create a Processing program that replicates the game Tetris using a graphical interface. }
-\end{subsectionnobullet}
-\begin{subsectionnobullet}{Systems Level Programming}{Course - Group}{\websiteCustom{github.com/UTkbxRME7c9C/systems_files/tree/main/MonsterBattles}{Project Files}}{December 2022}
-    \item{Used C to create a game that connects to other uses for turn-based actions, by implementing custom networking and printing libraries. }
-\end{subsectionnobullet}
-\begin{subsectionnobullet}{Cybersecurity}{Course - Group}{\websiteCustom{github.com/UTkbxRME7c9C/final-project-3-hoi-hossainr}{Project Files}}{June 2023}
-    \item{Used Java to create a Processing program that encodes hidden messages inside images using a pixel-value differencing steganography algorithm for each pixel.}
-\end{subsectionnobullet}
 
-\begin{subsectionnobullet}{PySweeper}{Personal}{\websiteCustom{github.com/UTkbxRME7c9C/pysweeper}{Project Files}}{January 2024}
-    \item{Used Python to create a program that replicates the game Minesweeper using the Pygame library.}
-\end{subsectionnobullet}
+\begin{subsectionproject}{PVD Image Steganography}{Personal}{\gitRepo{github.com/UTkbxRME7c9C/pvd-image-steganography}{Project Repo}}
+    \item{Developed an image steganography program in C++ that encodes/decodes text within an image, by manipulating the differences between RGB values per pixel, while keeping image quality intact.}
+    \item{Used the FreeImage library for image processing, created a terminal user interface using getopt, as well as creating queues and custom classes for programming encapsulation and efficiency.}
+\end{subsectionproject}
+
+\begin{subsectionproject}{PySweeper}{Personal}{\gitRepo{github.com/UTkbxRME7c9C/pysweeper}{Project Repo}}
+    \item{Developed a Minesweeper game in Python using the Pygame library, by implementing a graphical user interface and event handling.}
+    \item{Utilized Pyinstaller and Github Actions to automate building executables for Windows, Linux, and macOS operating systems.}
+\end{subsectionproject}
 
 \end{section}
 
+\sectiontable{Skills}{
+    \entry{Programming Languages}{C/C++, Java, Python, Perl, HTML, CSS, Markdown, \LaTeX}
+    \entry{Libraries/Frameworks}{Matplotlib, Pygame, Pyinstaller, FreeImage, Processing}
+    \entry{Operating Systems}{GNU/Linux, Windows, Android}
+    \entry{Applications/Programs}{Git, GitHub, GCC, Make, Vim, Bash, ZSH, QEMU/KVM}
+}
+\sectiontable{Certifications}{
+    \entry{Codepath}{Intermediate Cybersecurity (CYB102) \hfill \textit{Feb. 2024 - Apr. 2024} \newline Advanced Technical Interview Prep (TIP103) \hfill \textit{Jun. 2024 - Aug. 2024} }
+}
+
 \begin{section}{Supporting Experience}
-    \begin{subsection}{Creative Art Works}{Youth Apprentice}{New York, NY}{July 2023-August 2023}
+    \begin{subsection}{Creative Art Works}{Youth Apprentice}{New York, NY}{Jul. 2023 - Aug. 2023}
         \item Worked with 20+ other YAs and TAs to establish a mural inside the Bronx Family Court.
         \item Responsible for communicating with the client for design needs, and pitching ideas to be used for the final design.
     \end{subsection}
 \end{section}
-
-\sectiontable{Skills}{
-    \entry{Programming Languages}{C, Java, Python, C++, HTML, CSS, Markdown, \LaTeX}
-%    \entry {Libraries/Frameworks}{Matplotlib}
-    \entry{Operating Systems}{GNU/Linux, Windows, Android}
-    \entry{Applications/Programs}{Git, GitHub, Processing, Bash, ZSH, QEMU}
-    \entry{Languages}{English (native), Bengali (native)}
-}
 
 \end{document}

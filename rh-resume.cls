@@ -1,5 +1,5 @@
 % Class Identifier and Version
-\ProvidesClass{kyvernitis-resume}[2023/06/06 Kyvernitis class]
+\ProvidesClass{rh-resume}[2023/06/06 Kyvernitis class]
 \NeedsTeXFormat{LaTeX2e}
 
 % Set font size and paper type

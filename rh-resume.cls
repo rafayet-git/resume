@@ -171,7 +171,7 @@
 \newenvironment{subsectionproject}[3]{
     \phantomsection
     \addcontentsline{toc}{subsection}{#1}
-    \textbf{#1} \textit{- #2} \hfill \textit{#3} 
+    \textbf{#1} | \textit{#2} \hfill \textit{#3} 
     \smallskip
     \begin{list}{$\vbullet$}{
         \leftmargin=2em

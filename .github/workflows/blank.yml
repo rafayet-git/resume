@@ -18,7 +18,6 @@ jobs:
           name: PDF
           path: rh-resume.pdf
       - name: Release
-        uses: softprops/action-gh-release@v2
+        uses: svenstaro/upload-release-action@v2
         with:
-          tag_name: releases
-          files: rh-resume.pdf
+          file: rh-resume.pdf

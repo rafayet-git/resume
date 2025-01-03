@@ -42,7 +42,7 @@
 \pagestyle{empty}
 
 % Define navy-blue color for later use. Color code is taken from Canva
-\definecolor{navyblue}{RGB}{30, 62, 102}
+\definecolor{navyblue}{RGB}{15, 41, 61}
 \definecolor{links}{RGB}{1, 41, 120}
 
 % Define new resizable bullet with default 0.7 size for later use

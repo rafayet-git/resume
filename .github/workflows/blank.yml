@@ -18,6 +18,5 @@ jobs:
           path: rh-resume.pdf
       - name: Release
         uses: softprops/action-gh-release@v2
-        if: startsWith(github.ref, 'refs/tags/')
         with:
           files: rh-resume.pdf

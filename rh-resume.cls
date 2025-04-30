@@ -42,7 +42,7 @@
 \pagestyle{empty}
 
 % Define navy-blue color for later use. Color code is taken from Canva
-\definecolor{navyblue}{RGB}{15, 41, 61}
+\definecolor{navyblue}{RGB}{0, 0, 0}
 \definecolor{links}{RGB}{1, 41, 120}
 
 % Define new resizable bullet with default 0.7 size for later use
@@ -86,9 +86,9 @@
     \href{https://#1}{\textcolor{black}
     {\faGlobeAmericas}\hspace{0.5em}#2}
 }
-\newcommand{\gitRepo}[2]{
+\newcommand{\gitRepo}[1]{
     \href{https://#1}{\textcolor{black}
-    {\faGithub}\hspace{0.5em}#2}
+    {\faGithub}\hspace{0.25em}View Source}
 }
 \newcommand{\phone}[1]{
     \textcolor{black}{\faPhone*}\hspace{0.5em}#1

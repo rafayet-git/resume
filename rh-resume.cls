@@ -59,8 +59,11 @@
 
 % Define some social accounts and contact information formats
 \newcommand{\linkedin}[1]{
-    \href{https://linkedin.com/in/#1}{\textcolor{black}
-    {\faLinkedinIn}\hspace{0.5em}#1}
+    \href{https://linkedin.com/in/#1}{
+        \textcolor{black}{
+            \hspace{0.1em}{\faLinkedinIn}
+        }\hspace{0.3em}#1
+    }
 }
 \newcommand{\email}[1]{
     \href{mailto:#1}{\textcolor{black}

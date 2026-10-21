@@ -23,8 +23,10 @@ jobs:
           name: resume-pdf
           path: rh-resume.pdf
 
-      - name: Release PDF on tag
-        if: github.ref_type == 'tag'
+      - name: Release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: latest
+          name: Latest resume
+          prerelease: true
           files: rh-resume.pdf

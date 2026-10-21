@@ -1,24 +1,30 @@
-name: Build LaTeX document
-on: [push]
+name: Build Typst document
+on:
+  push:
+  workflow_dispatch:
 jobs:
-  build_latex:
-    permissions: write-all
+  build_typst:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v4
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v3
+
+      - name: Compile Typst document
+        uses: ammar-ahmed22/compile-typst-action@v2
         with:
-          root_file: rh-resume.tex
-          latexmk_use_xelatex: true
+          source_paths: main.typ
+          output_paths: rh-resume.pdf
+
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
         with:
-          name: PDF
+          name: resume-pdf
           path: rh-resume.pdf
-      - name: Release
-        uses: svenstaro/upload-release-action@v2
+
+      - name: Release PDF on tag
+        if: github.ref_type == 'tag'
+        uses: softprops/action-gh-release@v2
         with:
-          file: rh-resume.pdf
-          overwrite: true
+          files: rh-resume.pdf

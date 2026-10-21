@@ -154,7 +154,8 @@
             "items": [
                 "Created a web-based recycling guide with a team of 4, simplifying everyday recycling and disposal habits using React.",
                 "Designed interactive components such as resource sections and an interactive quiz, leveraging the Gemini AI API to provide personalized recycling suggestions."
-            ]
+            ],
+            "link": "https://ez-recycle.vercel.app/"
         },
         {
             "title": "Hawk's Highway, HunterHacks",
@@ -164,7 +165,8 @@
                 "Participated in HunterHacks Spring '25 with a team of 4, building a full-stack MVP in under 48 hours, while competing among 40+ teams.",
                 "Developed a web-based travel planner that gamifies carbon footprint reduction for commuters using React and Supabase.",
                 "Built a leaderboard and points system to reward and encourage community-driven eco-friendly habits."
-            ]
+            ],
+            "link": "https://devpost.com/software/hawks-highway"
         },
         {
             "title": "PySweeper",
@@ -173,7 +175,8 @@
             "items": [
                 "Developed a Minesweeper game in Python using the Pygame library, by creating an user interface and handling input events.",
                 "Utilized PyInstaller and Github Actions to automate building executables for Windows, Linux, and macOS systems."
-            ]
+            ],
+            "link": "https://github.com/rafayet-git/pysweeper"
         }
     ],
     "style": {

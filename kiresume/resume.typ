@@ -31,6 +31,8 @@
   sections: (),
   /// -> dictionary
   style: (:),
+  /// Extra keys (e.g. parked content in the config) are accepted and ignored.
+  ..ignored,
 ) = {
   let header-color = value-or-default(style, "header-color", color.black.to-hex())
   let divider-color = value-or-default(style, "divider-color", color.black.to-hex())

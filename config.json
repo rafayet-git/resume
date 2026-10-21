@@ -142,7 +142,8 @@
                     ],
                     "link": "https://github.com/rafayet-git/pvd-image-steganography"
                 }
-            ]
+            ],
+            "inline": true
         }
     ],
     "style": {

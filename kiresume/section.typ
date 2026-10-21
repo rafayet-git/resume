@@ -7,12 +7,15 @@
   /// -> str | none
   title: none,
   /// -> array
-  subsections: ()
+  subsections: (),
+  /// Applies the one-line title/subtitle layout to every subsection.
+  /// -> bool
+  inline: false
 ) = {
   if title != none {
     [== #title]
   }
 
   line()
-  subsections.map(x => subsection(..x)).join()
+  subsections.map(x => subsection(inline: inline, ..x)).join()
 }

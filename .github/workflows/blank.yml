@@ -28,5 +28,5 @@ jobs:
         with:
           tag_name: latest
           name: Latest resume
-          prerelease: true
+          # prerelease: true
           files: rh-resume.pdf

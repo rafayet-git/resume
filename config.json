@@ -1,30 +1,43 @@
 {
-    "candidate-name": "John Doe",
-    "job-title": "Web Developer",
+    "candidate-name": "Rafayet Hossain",
+    "job-title": "",
     "links": [
         {
-            "display": "john.doe@example.com",
-            "destination": "mailto:john.doe@example.com"
+            "display": "(973)-556-7443"
         },
         {
-            "display": "github.com/octocat",
-            "destination": "https://github.com/octocat"
+            "display": "rafayet@hos.sh",
+            "destination": "mailto:rafayet@hos.sh"
         },
         {
-            "display": "linkedin.com/in/johndoe",
-            "destination": "https://linkedin.com/in/johndoe"
+            "display": "Queens, NY"
         },
         {
-            "display": "github.blog",
-            "destination": "https://github.blog"
+            "display": "hos.sh",
+            "destination": "http://hos.sh"
+        },
+        {
+            "display": "linkedin.com/in/rafayeth",
+            "destination": "https://linkedin.com/in/rafayeth"
+        },
+        {
+            "display": "github.com/rafayet-git",
+            "destination": "https://github.com/rafayet-git"
         }
     ],
     "sections": [
         {
-            "title": "Summary",
+            "title": "Education",
             "subsections": [
                 {
-                    "text": "Creative and detail-oriented web developer with a passion for building user-friendly and responsive websites. Skilled in modern web technologies and committed to delivering high-quality solutions. Adept at collaborating with cross-functional teams to achieve project goals and exceed client expectations."
+                    "title": "Hunter College, City University of New York (CUNY)",
+                    "dates": "Expected May 2027",
+                    "subtitle": "Bachelor of Arts in Computer Science, Minor in Mathematics | GPA: 3.61/4.00",
+                    "location": "New York, NY",
+                    "items": [
+                        "Relevant Coursework: Software Analysis & Design, Computer Architecture, Operating Systems, Data Communications & Networks, Artificial Intelligence, Database Management, Calculus, Discrete Mathematics, Capstone",
+                        "Honors & Awards: Dean’s List (Fall 2024 - Fall 2025), Peter F. Vallone Academic Scholarship"
+                    ]
                 }
             ]
         },
@@ -33,74 +46,51 @@
             "subsections": [
                 {
                     "items": {
-                        "Programming Languages": "JavaScript, HTML, CSS, Python, PHP, TypeScript",
-                        "Frameworks and Libraries": "React, Angular, Vue.js, Node.js, Django, Tailwind CSS",
-                        "Tools and Platforms": "Git, Webpack, Docker, AWS, Firebase, Jenkins",
-                        "Databases": "MySQL, PostgreSQL, MongoDB, SQLite",
-                        "Development Practices": "Agile, Test-Driven Development, Continuous Integration, Code Reviews"
+                        "Programming": "C++, Python, C, Bash, Node.js, Dart, TypeScript, JavaScript, HTML, CSS, Markdown",
+                        "Technologies": "Git, GitHub, Linux, Unix, Docker, PostgreSQL, Make, GCC, KVM, Wireshark",
+                        "Libraries/Frameworks": "Next.js, React, Flutter, Supabase, Firebase, TailwindCSS, OpenCV, Jekyll, Pygame, Pyinstaller",
+                        "Certifications": "Codepath Intermediate Cybersecurity (Apr 2024), Codepath Advanced Technical Interview Prep (Aug 2024)"
                     }
                 }
             ]
         },
         {
-            "title": "Work Experience",
+            "title": "Experience",
             "subsections": [
                 {
-                    "title": "Frontend Developer",
-                    "subtitle": "Tech Solutions Inc.",
-                    "location": "New York",
+                    "title": "CUNY Tech Prep",
+                    "subtitle": "Fellow, Web Development",
+                    "location": "New York, NY",
                     "from": {
-                        "year": 2022,
-                        "month": 6
-                    },
-                    "items": [
-                        "Developed and maintained responsive web applications using React and Redux.",
-                        "Collaborated with designers and backend developers to create seamless user experiences.",
-                        "Optimized website performance, reducing load times by 30%.",
-                        "Implemented accessibility best practices to ensure compliance with WCAG standards.",
-                        "Mentored junior developers and conducted code reviews to maintain code quality."
-                    ]
-                },
-                {
-                    "title": "Junior Web Developer",
-                    "subtitle": "Creative Web Studio",
-                    "location": "San Francisco",
-                    "from": {
-                        "year": 2020,
+                        "year": 2025,
                         "month": 8
                     },
                     "to": {
-                        "year": 2022,
+                        "year": 2026,
                         "month": 5
                     },
                     "items": [
-                        "Built and maintained client websites using HTML, CSS, and JavaScript.",
-                        "Implemented SEO best practices to improve website rankings.",
-                        "Provided technical support and troubleshooting for website issues.",
-                        "Collaborated with clients to gather requirements and deliver tailored solutions.",
-                        "Created reusable components to streamline development processes."
+                        "Selected for a competitive web development fellowship with students from across the 11 CUNY senior colleges, where Fellows create technical projects using tools such as React, Node + Express, and PostgreSQL.",
+                        "Learned industry best practices for design, implementation, and deployment, such as MVC, version control with Git/GitHub, agile & Scrum with Trello and Slack, test-driven development, and CI/CD."
                     ]
-                }
-            ]
-        },
-        {
-            "title": "Education",
-            "subsections": [
+                },
                 {
-                    "title": "Bachelor of Science in Computer Science",
-                    "subtitle": "State University",
+                    "title": "Jupiter Leo Productions",
+                    "subtitle": "Software Development Intern",
+                    "location": "Remote",
                     "from": {
-                        "year": 2016,
-                        "month": 9
+                        "year": 2025,
+                        "month": 7
                     },
                     "to": {
-                        "year": 2020,
-                        "month": 6
+                        "year": 2025,
+                        "month": 8
                     },
                     "items": [
-                        "Graduated with honors, specializing in web development and user experience design.",
-                        "Completed a senior capstone project focused on building a responsive e-commerce platform.",
-                        "Active member of the Computer Science Club, organizing coding workshops and hackathons."
+                        "Collaborated with a team of 3 to develop interactive educational games using HTML, CSS, and JavaScript, resulting in a 34% improvement in course engagement and learning outcomes.",
+                        "Updated a financial education platform by adding multimedia content, such as images and interactive elements, to enhance visual engagement and user experience for 100+ users.",
+                        "Streamlined content creation workflows by integrating generative AI tools, reducing manual design efforts by 50%, and accelerating production time by 20%.",
+                        "Improved skills in responsive design, accessibility, and collaborative development through designer & educator feedback."
                     ]
                 }
             ]
@@ -109,20 +99,56 @@
             "title": "Projects",
             "subsections": [
                 {
-                    "title": "Portfolio Website",
-                    "subtitle": "Personal Project",
+                    "title": "Flocksync",
+                    "subtitle": "Flutter, Firebase, Firestore, Dart, Node.js, OpenStreetMap",
+                    "location": "View Source",
                     "items": [
-                        "Designed and developed a personal portfolio website to showcase projects and skills.",
-                        "Implemented a blog section using a headless CMS for content management.",
-                        "Optimized for performance and SEO, achieving a 95+ score on Google Lighthouse."
-                    ]
+                        "Built a cross-platform rental management application in Flutter to help tenants and property managers centralize communication, maintenance, and property-related workflows.",
+                        "Implemented Firebase Authentication and Firestore data models for secure account creation, tenant onboarding, role-based access control, and real-time app updates.",
+                        "Integrated OpenStreetMap APIs for address autocomplete and verification through a Node.js backend, significantly improving property lookup and input accuracy."
+                    ],
+                    "link": "https://github.com/Flocksync/Flocksync"
+                },
+                {
+                    "title": "HerRide",
+                    "subtitle": "Next.js, Node.js, Supabase, Clerk, TypeScript, TailwindCSS",
+                    "location": "View Source",
+                    "items": [
+                        "Developed a full-stack, women-only ridesharing platform using Next.js in a team of 4 as part of CUNY Tech Prep.",
+                        "Integrated secure user authentication and management using Clerk and designed PostgreSQL schemas with role-based access using Supabase.",
+                        "Contributed to product design and planning by prototyping in Figma and coordinating features, requirements, and tech stack decisions using Trello and Notion."
+                    ],
+                    "link": "https://github.com/Her-Ride/HerRide"
+                },
+                {
+                    "title": "Check My Fit, CTP Hacks 2025",
+                    "subtitle": "Node.js, Express, EJS, HTML, CSS",
+                    "location": "View Site",
+                    "items": [
+                        "Participated in CTP Hacks 2025 with a team of 4, building a full-stack MVP in under 48 hours, while competing among 20+ teams.",
+                        "Implemented a web application, creating an outfit tracker to help people manage their personal wardrobe.",
+                        "Built the user interface using Express and EJS templating, integrating it with a MySQL database to support dynamic outfit tracking and scheduling."
+                    ],
+                    "link": "https://devpost.com/software/closetmate-x64y2m"
+                },
+                {
+                    "title": "PVD Image Steganography",
+                    "subtitle": "C++, OpenCV",
+                    "location": "View Source",
+                    "items": [
+                        "Created an image steganography program in C++ that encodes and decodes text within an image by manipulating differences in pixel RGB values, while keeping image quality intact.",
+                        "Used the OpenCV library for image processing and support for various image formats.",
+                        "Implemented custom classes and data structures, including queues, to improve programming encapsulation and efficiency."
+                    ],
+                    "link": "https://github.com/rafayet-git/pvd-image-steganography"
                 }
             ]
         }
     ],
     "style": {
         "font": "Noto Sans",
-        "font-size": "9pt",
+        "font-size": "8.5pt",
+        "margin": "0.45in",
         "header-color": "#000035",
         "divider-color": "#000000"
     }

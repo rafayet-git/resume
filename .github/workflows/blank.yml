@@ -1,7 +1,5 @@
 name: Build Typst document
-on:
-  push:
-  workflow_dispatch:
+on: [push]
 jobs:
   build_typst:
     permissions:

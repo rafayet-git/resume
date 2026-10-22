@@ -29,3 +29,8 @@ jobs:
           name: Latest resume
           # prerelease: true
           files: rh-resume.pdf
+          
+      - name: Notify personal site to update resume
+        run: gh api repos/rafayet-git/hos.sh/dispatches -f event_type=resume-updated
+        env:
+          GH_TOKEN: ${{ secrets.SITE_PAT }}

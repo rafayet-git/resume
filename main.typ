@@ -1,3 +1,3 @@
 #import "kiresume/lib.typ": resume
 
-#resume(..json("config.json"))
+#resume(..yaml("config.yml"))

@@ -14,7 +14,10 @@
                     "description": "The URL or email address the link points to."
                 }
             },
-            "required": ["display"]
+            "required": [
+                "display"
+            ],
+            "additionalProperties": false
         },
         "date": {
             "type": "object",
@@ -25,10 +28,16 @@
                 },
                 "month": {
                     "type": "integer",
-                    "description": "The month."
+                    "description": "The month.",
+                    "minimum": 1,
+                    "maximum": 12
                 }
             },
-            "required": ["year", "month"]
+            "required": [
+                "year",
+                "month"
+            ],
+            "additionalProperties": false
         },
         "subsection": {
             "type": "object",
@@ -55,7 +64,7 @@
                 },
                 "text": {
                     "type": "string",
-                    "description": "The text content of the subsection."
+                    "description": "Typst markup text content of the subsection."
                 },
                 "items": {
                     "oneOf": [
@@ -74,8 +83,17 @@
                             }
                         }
                     ]
+                },
+                "dates": {
+                    "type": "string",
+                    "description": "Freeform date text shown on the right; used instead of from/to."
+                },
+                "link": {
+                    "type": "string",
+                    "description": "URL the location text links to."
                 }
-            }
+            },
+            "additionalProperties": false
         },
         "section": {
             "type": "object",
@@ -90,8 +108,14 @@
                     "items": {
                         "$ref": "#/definitions/subsection"
                     }
+                },
+                "inline": {
+                    "type": "boolean",
+                    "description": "Render subsections on a compact inline layout (title | subtitle, with location/link on the right).",
+                    "default": false
                 }
-            }
+            },
+            "additionalProperties": false
         },
         "style": {
             "type": "object",
@@ -102,17 +126,29 @@
                 },
                 "link-color": {
                     "type": "string",
-                    "description": "The color of the links."
+                    "description": "The color of the links.",
+                    "pattern": "^#[0-9a-fA-F]{3,8}$"
                 },
                 "header-color": {
                     "type": "string",
-                    "description": "The color of the headers."
+                    "description": "The color of the headers.",
+                    "pattern": "^#[0-9a-fA-F]{3,8}$"
                 },
                 "divider-color": {
                     "type": "string",
-                    "description": "The color of the dividers."
+                    "description": "The color of the dividers.",
+                    "pattern": "^#[0-9a-fA-F]{3,8}$"
+                },
+                "font-size": {
+                    "type": "string",
+                    "description": "The base font size, e.g. 8.5pt."
+                },
+                "margin": {
+                    "type": "string",
+                    "description": "The page margin, e.g. 0.45in."
                 }
-            }
+            },
+            "additionalProperties": false
         }
     },
     "properties": {
@@ -143,5 +179,12 @@
             "description": "Styling options for the resume."
         }
     },
-    "required": ["candidate-name", "job-title", "links", "sections", "style"]
+    "required": [
+        "candidate-name",
+        "job-title",
+        "links",
+        "sections",
+        "style"
+    ],
+    "additionalProperties": false
 }

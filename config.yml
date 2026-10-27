@@ -35,8 +35,8 @@ sections:
         subtitle: Systems Engineering Intern
         location: New York, NY
         from:
-          year: 2025
-          month: 8
+          year: 2026
+          month: 7
         items:
           - Diagnosed a SQL Server pipeline failure in automated document ingestion, tracing SQL Server Agent jobs and migration logs to code errors introduced by a server migration.
           - Implemented automated data retention and backups for 20+ employee workstations at a New York City government office.

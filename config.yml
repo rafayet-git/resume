@@ -26,8 +26,8 @@ sections:
     subsections:
       - items:
           Programming: C++, Python, C, Bash, Node.js, Dart, TypeScript, JavaScript, HTML, CSS, Markdown
-          Technologies: Git, GitHub, Linux, Unix, Docker, PostgreSQL, Make, GCC, KVM, Wireshark
-          Libraries/Frameworks: Next.js, React, Flutter, Supabase, Firebase, TailwindCSS, OpenCV, Jekyll, Pygame, Pyinstaller
+          Technologies: Git, GitHub, Linux, Docker, GitHub Actions, TimescaleDB, PostgreSQL, SQL Server, Make, GCC, KVM, Wireshark
+          Libraries/Frameworks: Next.js, React, Flutter, Supabase, Firebase, TailwindCSS, PyTorch,OpenCV, Jekyll, Pygame, Pyinstaller
           Certifications: Codepath Applications of AI Engineering (Aug 2026), Codepath Intermediate Cybersecurity (Apr 2024)
   - title: Experience
     subsections:
@@ -37,7 +37,10 @@ sections:
         from:
           year: 2025
           month: 8
-        items: []
+        items:
+          - Diagnosed a SQL Server pipeline failure in automated document ingestion, tracing SQL Server Agent jobs and migration logs to code errors from a security policy update.
+          - Implemented automated data retention and backups for 20+ employee workstations at a New York City government office.
+          - Developing a software extension for energy imputation research at CUNY Queens College buildings, evaluating machine learning methods such as MICE and BRITS to fill missing data.
       - title: CUNY Tech Prep
         subtitle: Fellow, Web Development
         location: New York, NY
@@ -74,9 +77,12 @@ sections:
           - Integrated OpenStreetMap APIs for address autocomplete and verification through a Node.js backend, significantly improving property lookup and input accuracy.
         link: https://github.com/Flocksync/Flocksync
       - title: Zig Actions Runner
-        subtitle: ''
+        subtitle: Zig, Dagger, GitHub Actions, TimescaleDB, PostgreSQL, React, TypeScript
         location: View Site
-        items: []
+        items:
+          - Won Best Use of Tiger Data at the AI Engineer NYC 2026 Hackathon for building a lightweight, self-hosted GitHub Actions runner in Zig that runs workflow steps as cached Dagger pipelines, reducing repeated job times by 80%.
+          - Designed the Tiger Data (TimescaleDB) schema for runs, jobs, and logs, using time-based partitioning, compression, and 30-day retention to store high-volume log data efficiently.
+          - Built a React dashboard in TypeScript that shows each runner's status and its running and finished jobs, with automated tests.
         link: https://www.mlh.com/events/ai-engineer-nyc-2026/submissions/01a12cc2-f140-5c9c-7753-d3d66fb828b5
       - title: HerRide
         subtitle: Next.js, Node.js, Supabase, Clerk, TypeScript, TailwindCSS
@@ -86,14 +92,14 @@ sections:
           - Integrated secure user authentication and management using Clerk and designed PostgreSQL schemas with role-based access using Supabase.
           - Contributed to product design and planning by prototyping in Figma and coordinating features, requirements, and tech stack decisions using Trello and Notion.
         link: https://github.com/Her-Ride/HerRide
-      - title: PVD Image Steganography
-        subtitle: C++, OpenCV
-        location: View Source
-        items:
-          - Created an image steganography program in C++ that encodes and decodes text within an image by manipulating differences in pixel RGB values, while keeping image quality intact.
-          - Used the OpenCV library for image processing and support for various image formats.
-          - Implemented custom classes and data structures, including queues, to improve programming encapsulation and efficiency.
-        link: https://github.com/rafayet-git/pvd-image-steganography
+      # - title: PVD Image Steganography
+      #   subtitle: C++, OpenCV
+      #   location: View Source
+      #   items:
+      #     - Created an image steganography program in C++ that encodes and decodes text within an image by manipulating differences in pixel RGB values, while keeping image quality intact.
+      #     - Used the OpenCV library for image processing and support for various image formats.
+      #     - Implemented custom classes and data structures, including queues, to improve programming encapsulation and efficiency.
+      #   link: https://github.com/rafayet-git/pvd-image-steganography
       # - title: EzRecycle
       #   subtitle: React, Node.js, TailwindCSS, HTML, CSS
       #   location: View Site

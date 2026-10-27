@@ -31,6 +31,10 @@ jobs:
           files: rh-resume.pdf
           
       - name: Notify personal site to update resume
-        run: gh api repos/rafayet-git/hos.sh/dispatches -f event_type=resume-updated
+        run: |
+          gh api repos/rafayet-git/hos.sh/dispatches \
+            -f event_type=resume-updated \
+            -f "client_payload[message]=$COMMIT_MSG"
         env:
           GH_TOKEN: ${{ secrets.SITE_PAT }}
+          COMMIT_MSG: ${{ github.event.head_commit.message }}

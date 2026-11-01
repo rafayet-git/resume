@@ -73,7 +73,7 @@ sections:
         location: View Source
         items:
           - Built a cross-platform rental management application in Flutter to help tenants and property managers centralize communication, maintenance, and property-related workflows.
-          - Implemented Firebase Authentication and Firestore data models for secure account creation, tenant onboarding, role-based access control, and real-time app updates.
+          - Implemented the onboarding flow using Firebase Authentication and Firestore data models, enforcing per-tenant isolation and role-based access control for secure account creation and management.
           - Integrated OpenStreetMap APIs for address autocomplete and verification through a Node.js backend, significantly improving property lookup and input accuracy.
         link: https://github.com/Flocksync/Flocksync
       - title: Zig Actions Runner

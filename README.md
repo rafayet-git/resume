@@ -10,4 +10,3 @@ This repository includes a GitHub Actions workflow that automatically builds the
 ```sh
 typst compile --font-path fonts main.typ rh-resume.pdf
 ```
-

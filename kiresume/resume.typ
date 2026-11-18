@@ -42,7 +42,7 @@
   set document(author: candidate-name, title: if job-title == "" [#candidate-name] else [#candidate-name $dash.em$ #job-title])
   set text(font: font, ligatures: false, size: font-size, slashed-zero: true)
   set line(length: 100%, stroke: 1pt + rgb(divider-color))
-  set page(paper: "a4", margin: margin)
+  set page(paper: "us-letter", margin: margin)
   show heading: it => [ #set text(fill: rgb(header-color)); #it ]
   show link: it => [ #set text(fill: rgb(link-color)); #underline(it) ]
 
